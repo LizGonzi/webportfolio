@@ -1,0 +1,31 @@
+
+*{
+	font font-family: "Handlee", Neucha;
+	font-size: 20px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+#landing{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	opacity: 0.6;
+}
+
+#aboutme{
+	background-color: #a86193;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+#credentials{
+	letter-spacing: 5px
+}
+
+
+
