@@ -27,5 +27,22 @@ html{
 	letter-spacing: 5px
 }
 
+#projects{
+	letter-spacing: 5px
+}
 
+#avatar{
+	width: 200px;
+	height: 300px;
+}
 
+.bottomleft{
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  }
+
+#carouselme{
+	width: 500px;
+	height: 300px;
+}
