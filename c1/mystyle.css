@@ -1,44 +1,43 @@
 
-
-html{
-	scroll-behavior: smooth;
-}
 #navbar{
 	background-color: #8a7e72;
 }
 
-#landing{
+#landingbg{
+	background-image: url("../images/landingbg.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
-#welcome{
-	font-family: "Cinzel decorative", sans-serif;
-	font-size: xx-large;
-	color: blue;
-	text-shadow: 2px 2px grey; 
+#avatar{
+ width: 150px;
+ height: 200px;
 }
+
 #aboutme{
 	background-color: #537e8d;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 100vh;
 }
 
 #liz{
-	font-family: "Offside", sans-serif;
+	font-family: "Amita", sans-serif;
 	text-align: center;
-
 }
 
+h1{
+	font-family: "Goldman", sans-serif;
+	color: darkblue;
+}
+
+h2{
+	font-family: "Cinzel Decorative", sans-serif;
+}
 
 h4{
 	font-family: "Libre Barcode 39 Text", sans-serif;
-	font-size: xx-large; ;
+	font-size: xx-large; 
 }
 
 p {
@@ -48,52 +47,35 @@ p {
 
 #credentials{
 	letter-spacing: 10px;
-	
+	padding: 5;
 }
 
 #projects{
 	letter-spacing: 10px;
-	padding: 5;
+		padding: 5;
 }
 
-#avatar{
- width: 150px;
-  height: 200px;
+#glimpse{
+	font-family: "Amita", sans-serif;
+}
+
+#footer{
+	background-color: #8a7e72; 
+  	color: white; 
 }
 
 #gallery{
 	background-color: #537e8d;
+
 }
 
 #contactme{
 	background-color: #537e8d;
 }
 
-#carouselgrad{
-	width: 500px;
-	height: 300px;
-}
+.card-group{
+	width: 100px
+	height: 150px;
 
-#carouselme{
-	width: 500px;
-	height: 300px;
-}
-
-#footer{
- 	margin: 5;
- 	background-color: #8a7e72; 
-  	color: white; 
-}
-#footer div{
-	display: inline;
-	width: 25%;
-	vertical-align: bottom;
-	text-align: center;
-}
-
-
-#icons{
-	max-width: 50vh;
-	max-height: 50vh;
 }
 
