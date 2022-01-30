@@ -8,22 +8,10 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 100vh;
+	position: relative;
+	width: 100%
+	min-height: 60vh;
 	opacity: 0.7;
-}
-
-#avatar{
- width: 150px;
- height: 200px;
-}
-
-#aboutme{
-	background-color: #537e8d;
-}
-
-#liz{
-	font-family: "Amita", sans-serif;
-	text-align: center;
 }
 
 h1{
@@ -35,6 +23,27 @@ h2{
 	font-family: "Cinzel Decorative", sans-serif;
 }
 
+#avatar{
+ width: 150px;
+ height: 150px;
+ position: left;
+
+}
+
+#aboutme{ 	
+	background-color: #537e8d;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+	padding-top: 5;
+}
+
+#liz{
+	font-family: "Amita", sans-serif;
+	text-align: center;
+}
+
 h4{
 	font-family: "Libre Barcode 39 Text", sans-serif;
 	font-size: xx-large; 
@@ -44,7 +53,6 @@ p {
 	font-family: "Offside", sans-serif;
 	text-align: center;
 }
-
 #credentials{
 	letter-spacing: 10px;
 	padding: 5;
@@ -54,28 +62,85 @@ p {
 	letter-spacing: 10px;
 		padding: 5;
 }
+.card{
+	width: 18rem;
+}
+
+#gallery{
+	background-color: #537e8d;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 #glimpse{
 	font-family: "Amita", sans-serif;
+	font-size: x-large;
+}
+
+#glimpse .carousel .carousel-inner{
+	min-width: : 500px;
+	
+}
+
+#glimpse .carousel-inner .carousel-item img{
+   	min-width: 500px;
+  
+}
+
+#contactme{
+	background-color: #537e8d;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#form{
+	background-color: #c3dfe0;
 }
 
 #footer{
 	background-color: #8a7e72; 
   	color: white; 
+  	letter-spacing: 10px;
 }
 
-#gallery{
-	background-color: #537e8d;
-
+.icons img{
+	width: 30px;
+	height: 30px;
+	padding-right: 2;
+	padding-left: 2;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-#contactme{
-	background-color: #537e8d;
+@media (max-width: 768px){
+	#landingbg{
+		float: none;
+		width: 100%;
+	}
+
+	.carousel .carousel-inner{
+	width: : 100%;
+	}
+
+	.carousel-inner  .carousel-item img{
+   	min-width: 100%;
+	}
 }
 
-.card-group{
-	width: 100px
-	height: 150px;
+@media (max-width: 400px){
+	#landingbg{
+		float: none;
+		width: 100%;
+	}
 
+	.credentials{
+	width: : 100%;
+	}
+
+	.projects{
+   	min-width: 100%;
+
+	}
 }
-
